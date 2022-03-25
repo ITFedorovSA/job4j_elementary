@@ -27,8 +27,8 @@ public class PointTest {
     }
 
     @Test
-    public void whenmin12to01then1dot41421356() {
-        double expected = 1.41421356f;
+    public void whenminus12to01then1dot41() {
+        double expected = 1.41f;
         int x1 = -1;
         int y1 = 2;
         int x2 = 0;
@@ -38,8 +38,8 @@ public class PointTest {
     }
 
     @Test
-    public void when0min2to10then2dot23606798() {
-        double expected = 2.23606798f;
+    public void when0minus2to10then2dot23() {
+        double expected = 2.23f;
         int x1 = 0;
         int y1 = -2;
         int x2 = 1;
