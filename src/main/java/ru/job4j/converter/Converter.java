@@ -19,7 +19,6 @@ public class Converter {
         System.out.println("140 rubles are 2. Test result : " + passed);
         float euro = Converter.rubleToEuro(140);
         System.out.println("140 rubles are " + euro + " euro.");
-
         float rubIn = 140;
         double expectedUsd = 2.3333333f;
         double outUsd = Converter.rubleToDollar(rubIn);

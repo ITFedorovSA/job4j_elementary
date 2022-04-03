@@ -11,7 +11,6 @@ public class Merge {
         for (int j = 0; j < right.length; j++) {
             rsl[count++] = right[j];
         }
-
         for (int index = 0; index < rsl.length - 1; index++) {
         int min = rsl[index];
         for (int m = index + 1; m < rsl.length; m++) {

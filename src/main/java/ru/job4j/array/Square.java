@@ -7,7 +7,6 @@ public class Square {
             rst[index] = (int) Math.pow(index, 2);
         }
         return rst;
-
     }
 
     public static void main(String[] args) {
