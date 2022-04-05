@@ -5,37 +5,45 @@ import org.junit.Assert;
 
 public class MaxTest {
     @Test
-    public void whenMax1To2Then2() {
-        int left = 1;
-        int right = 2;
-        int result = Max.max(left, right);
-        int expected = 2;
+    public void whenMax1To2To4To0Then4() {
+        int first = 1;
+        int second = 2;
+        int third = 4;
+        int fourth = 0;
+        int result = new Max().max(first, second, third, fourth);
+        int expected = 4;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMax9Tominus4Then9() {
-        int left = 9;
-        int right = -4;
-        int result = Max.max(left, right);
-        int expected = 9;
+    public void whenMax9ToMinus4ToMinus2To10Then10() {
+        int first = 9;
+        int second = -4;
+        int third = -2;
+        int fourth = 10;
+        int result = new Max().max(first, second, third, fourth);
+        int expected = 10;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMaxminus3Tominus2Thenminus2() {
-        int left = -3;
-        int right = -2;
-        int result = Max.max(left, right);
-        int expected = -2;
+    public void whenMaxMinus3ToMinus2ToMinus6ToMinus1ThenMinus1() {
+        int first = -3;
+        int second = -2;
+        int third = -6;
+        int fourth = -1;
+        int result = new Max().max(first, second, third, fourth);
+        int expected = -1;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMaxminus1Tominus1Thenminus1() {
-        int left = -1;
-        int right = -1;
-        int result = Max.max(left, right);
+    public void whenMaxMinus1ToMinus1ToMinus1ToMinus1ThenMinus1() {
+        int first = -1;
+        int second = -1;
+        int third = -1;
+        int fourth = -1;
+        int result = new Max().max(first, second, third, fourth);
         int expected = -1;
         Assert.assertEquals(result, expected);
     }
