@@ -14,7 +14,8 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int maxNum = new Max().max(-5, 3, 6, -1);
+        Max max = new Max();
+        int maxNum = max.max(-5, 3, 6, -1);
         System.out.println(maxNum);
     }
 }
