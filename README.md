@@ -1,10 +1,21 @@
-# Job4j. Блок базовый синтаксис.
-Проект содержит решения блока "Базовый синтаксис" курса Job4j.
-В этом проекте рассмотрены: 
-- переменные
-- операторы ветвления
-- циклы
-- массивы
-- модульное тестирование
-- IDEA
-- Основы GIT
+# job4j_elementary
+
+Java basic
+
+# About
+
+This project presents individual tasks (lessons) on such topics as:
+
+- Variables
+- Branch operators
+- Loops
+- Arrays
+- Unit tests
+- IntelliJ IDEA
+- GIT
+
+***
+
+# Contact
+
+Contact me if you have any questions: itfedorovsa@gmail.com
